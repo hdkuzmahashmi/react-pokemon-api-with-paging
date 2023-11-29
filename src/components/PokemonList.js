@@ -4,6 +4,7 @@ import styled from "styled-components";
 const StyledMain = styled.main`
   max-width: 600px;
   margin: 0 auto;
+  height: 800px;
 `;
 
 const StyledHeader = styled.header`
@@ -18,6 +19,8 @@ const StyledHeading = styled.h1`
 const StyledList = styled.ul`
   list-style: none;
   padding: 0;
+  height: 600px; /* Fixed height for the list */
+  overflow-y: auto; /* Enable vertical scrolling */
 `;
 
 const StyledListItem = styled.li`
